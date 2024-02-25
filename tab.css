@@ -1,0 +1,116 @@
+@media (max-width:800px){
+
+nav{
+    padding: 50px 80px;
+}
+
+/* for 1st content css */
+.links {
+    font-size: 1rem;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+
+/* about  us  */
+.about-main .right {
+    width: 320px;
+}
+
+/* skills section CSS */
+.skill-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.bars-shadow{
+    width: 70%;
+}
+.bar1{
+    width: 58%;
+}
+.bar2{
+    width: 65%;
+}
+.bar3{
+    width: 40%;
+}
+.bar4{
+    width: 55%;
+}
+.bar5{
+    width: 30%;
+}
+.bar6{
+    width: 60%;
+}
+
+
+/* Education section CSS */
+.line{
+    border: 2px solid #603dc1b1;
+    width: 190px;
+    height: 1px;
+    transform: rotate(90deg);
+    margin-left: 548px;
+    margin-top: -155px;
+}
+.line {
+    border: 2px solid #603dc1b1;
+    width: 350px;
+    height: 1px;
+    transform: rotate(90deg);
+    margin-left: 210px;
+    margin-top: -310px;
+}
+.education1{
+    text-align: end;
+    margin-top: -20px; 
+    padding-right: 400px;
+}
+.education2{
+    margin-left: 400px;
+    margin-top: -20px;
+}
+.education3{
+    text-align: end;
+    margin-top: -20px; 
+    padding-right: 400px;
+}
+.right-contact{
+    width: 100%;
+}
+
+/* contact me */
+.right-contact h2 {
+    font-size: 3rem;
+    padding: 25px;
+    text-align: center;
+    margin-left: -60px;
+}
+.form input{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: -10px;
+}
+.form table td{
+    padding: 10px 0 0 0;
+    font-size: 0.9rem;
+}
+.form table{
+    padding-top: 20px;
+    margin-left: -25px;
+}
+.form td button{
+    width: 90%;
+    border-radius: 20px;
+    padding: 8px ;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+
+
+}

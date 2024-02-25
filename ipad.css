@@ -1,0 +1,48 @@
+@media (max-width:1030px){
+
+nav{
+    padding: 50px 100px;
+}
+
+/* for 1st content css */
+.links{
+    padding-left: 150px;
+}
+
+/* About me section CSS */
+#about{
+    margin-top: 120px;
+}
+
+/* css for the skills section */
+#skills{
+    margin-top: 200px;
+}
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+/* Education section CSS */
+#education{
+    margin-top: 180px;
+}
+.line {
+    width: 190px;
+    margin-left: 408px;
+    margin-top: -155px;
+}
+
+
+
+
+/* Contact with me - CSS */
+.right-contact{
+    width: 100%;
+}
+
+
+
+}
