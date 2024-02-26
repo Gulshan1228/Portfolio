@@ -147,6 +147,16 @@ nav-right button{
 .bars-shadow{
     width: 70%;
 }
+
+.bars-shadow{
+    margin-left: 120px;
+    margin-top: -10px;
+}
+.bars{
+    margin-left: 120px;
+    margin-top: -4px;
+}
+
 .more-skills{
     letter-spacing: 1px;
 }
@@ -203,11 +213,9 @@ nav-right button{
     padding-right: 0px;
 }
 .education-content .line {
-    width: 200px;
-    margin: -182px 0px 0px -42px;
-
+    width: 205px;
+    margin: -170px 0px 0px -35px;
 }
-
 
 
 /* Projects  */
@@ -293,5 +301,7 @@ nav-right button{
     padding-top: 24px;
     color: white;
 }
-    
+
+
+
 }
