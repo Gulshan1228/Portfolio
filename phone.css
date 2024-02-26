@@ -70,6 +70,8 @@ nav-right button{
     border-radius: 5px;
     margin: 20px 0px;
     font-stretch: ultra-expanded;
+    color: white;
+    background-color: #603dc1f5;
 }
 .my-photo{
     height: 150px;
@@ -114,9 +116,21 @@ nav-right button{
     border-radius: 5px;
     margin: 20px 0px;
     font-stretch: ultra-expanded;
+    color: white;
+    background-color: #603dc1f5;
 }
 
 /* css for the skills section */
+.technical i,.skill-self i{
+    color: white;
+    background-color: #603dc1f5;
+}
+.skill-bars p{
+    letter-spacing: 0.2px;
+}
+.skill-bars p i{
+    padding: 2px;
+}
 .skill-content{
     display: flex;
     justify-content: space-around;
@@ -154,6 +168,9 @@ nav-right button{
 .bar6{
     width: 60%;
 }
+.more-skills{
+    letter-spacing: 1px;
+}
 
 
 /* Education section CSS */
@@ -187,7 +204,7 @@ nav-right button{
 }
 .education-content .line {
     width: 200px;
-    margin: -169px 0px 0px -34px;
+    margin: -171px 0px 0px -34px;
 }
 
 
@@ -220,6 +237,7 @@ nav-right button{
     border-bottom: 1px solid black;
     width: 100%;
     margin-top: -10px;
+    outline: none;
 }
 .form table td{
     padding: 10px 0 0 0;
@@ -233,8 +251,8 @@ nav-right button{
     width: 100%;
     border-radius: 20px;
     padding: 2px ;
+    color: black;
     margin-top: 10px;
-    font-weight: 200;
 }
 
 .more-contact{
@@ -250,7 +268,7 @@ nav-right button{
 .more-contact a{
     text-decoration: none;
     color: white;
-    font-weight: 100;
+    font-weight: 200;
 }
 .more-contact p:nth-child(1),p:nth-child(3){
     font-size: 1.1rem;
@@ -271,10 +289,8 @@ nav-right button{
 }
 .contact-icons i{
     padding-right: 15px;
-    padding-top: 22px;
-    color: antiquewhite;
+    padding-top: 24px;
+    color: white;
 }
-
-
-
+    
 }
