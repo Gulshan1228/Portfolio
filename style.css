@@ -12,6 +12,9 @@ nav{
     padding: 20px 100px;
     padding-left: 150px;
 }
+left-nav h3{
+    margin-top: -3px;
+}
 nav-right ul{
     display: flex;
     list-style-type: none;
