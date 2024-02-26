@@ -114,8 +114,8 @@ nav-right button{
     height: 250px;
     margin: 100px;
     margin-left: 50px;
-    padding-top: 10px;
-    border-radius: 1px; 
+    padding-top: 10px; 
+    border-radius: 43% 57% 45% 55% / 25% 30% 70% 75% ;
     background-image: url(img/Resumepic-removebg-preview.png);
     background: linear-gradient(150deg,#26377b,#603dc1d2 );
 }
