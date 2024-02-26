@@ -13,7 +13,7 @@ nav{
     padding-left: 150px;
 }
 left-nav h3{
-    margin-top: -10px;
+    margin-top: -3px;
 }
 nav-right ul{
     display: flex;
@@ -143,6 +143,7 @@ nav-right button{
     height:320px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 5px lightgray;
+    background: linear-gradient(250deg,#15004f,#613dc1);
 }
 .about-main .right{
     width: 500px;
