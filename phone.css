@@ -346,9 +346,12 @@ nav-right button{
 }
 .contact-icons i{
     padding-right: 15px;
-    padding-top: 24px;
+    padding-top: 26px;
     color: white;
     font-size: 0.8rem;
+}
+.contact-icon i:nth-child(2), i:nth-child(3){{
+    font-size: 0.9rem;
 }
 
 
