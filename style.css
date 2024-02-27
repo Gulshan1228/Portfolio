@@ -114,10 +114,10 @@ nav-right button{
     height: 250px;
     margin: 100px;
     margin-left: 50px;
-    padding-top: 10px; 
-    border-radius: 43% 57% 45% 55% / 25% 30% 70% 75%  ;
+    padding-top: 10px;
+    border-radius: 43% 57% 45% 55% / 25% 30% 70% 75% ;
     background-image: url(img/Resumepic-removebg-preview.png);
-    background: linear-gradient(150deg,#26377b,#603dc1d2 );
+    background: linear-gradient(150deg,#2742ac,#603dc1ac );
 }
 
 /* About me section CSS */
@@ -143,12 +143,37 @@ nav-right button{
     height:320px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 5px lightgray;
-    background: linear-gradient(250deg,#2a019c,#613dc1);
+    background: linear-gradient(250deg,#2546cb,#603dc1ec);
 }
 .about-main .right{
     width: 500px;
+    padding: 25px 0px;
     color: rgba(0, 0, 0, 0.9);
 }
+
+.left-table table{
+    padding-top: 25px;
+}
+.left-table td:nth-child(2){
+    padding-left: 25px;
+}
+.left-table td i{
+    color: #603dc1b1;
+    font-size: 1rem;
+}
+.left-table a {
+    text-decoration: none;
+    color: black;
+}
+
+.left{
+    display: flex;
+}
+.left-table{
+    display: none;
+}
+
+
 .right table{
     padding-top: 25px;
 }
@@ -158,6 +183,13 @@ nav-right button{
 .right td i{
     color: #603dc1b1;
 }
+.right a {
+    text-decoration: none;
+    color: black;
+}
+.cv-btn a{
+    color: antiquewhite;
+}
 .about-main button{
     padding: 10px 40px;
     border-radius: 10px;
@@ -165,11 +197,12 @@ nav-right button{
     border: none;
     background-color: #603dc1dc;
     transition: all 0.3s ease-in-out;
-    margin: 25px auto;
+    margin: 30px auto;
     font-size: 0.95rem;
 }
 .about-main button:hover{
     box-shadow: 0px 3px 2px 1px grey;
+    color: white;
     background-color: #613dc1;
     transform: translateY(-2px);
     
@@ -295,7 +328,7 @@ nav-right button{
 /* Contact with me - CSS */
 .contact-content{
     border: none;
-    background: linear-gradient(290deg,#6542c6d8,#613dc1);
+    background: linear-gradient(290deg,#603dc1ee,#613dc1);
     height: 400px;
     width: 75%;
     margin: 60px auto;
@@ -309,7 +342,7 @@ nav-right button{
     /* margin-top: px; */
 }
 .right-contact{
-    width: 50%;
+    width: 55%;
 }
 .right-contact h2{
     font-size: 4rem;
@@ -376,15 +409,15 @@ nav-right button{
 
 .contact-icons{
     padding: 55px 0px ;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 .contact-icons i{
-    padding-right: 30px;
+    padding-right: 25px;
     color: antiquewhite;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .contact-icons i:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: white;
 }
 
@@ -398,8 +431,11 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     align-items: center;
 }
 .copyright{
     color: whitesmoke;
+    font-size: 0.9rem;
 }
