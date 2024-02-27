@@ -127,13 +127,13 @@ nav-right button{
     color: rgba(0, 0, 0, 0.9);
 }
 .about-main button{
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     padding: 8px 15px;
     border-radius: 5px;
     margin: auto;
     font-stretch: ultra-expanded;
-    color: antiquewhite;
-    background-color: #603dc1c2;
+    color: white;
+    background-color: #603dc1;
 }
 
 .left-table{
@@ -147,7 +147,7 @@ nav-right button{
 }
 .left-table button {
     margin: 4px;
-    color: antiquewhite;
+    color: white;
     width: 120px;
     padding: 5px;
     border-radius: 20px;
