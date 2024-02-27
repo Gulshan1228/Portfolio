@@ -47,7 +47,7 @@ nav-right button{
 .links{
     font-size: 1rem;
     padding-top: 150px;
-    padding-left: 18px;
+    padding-left: 20px;
     padding-right: 10px;
 }
 .my-details{
@@ -65,10 +65,10 @@ nav-right button{
     padding-bottom: 5px;
     margin-top: -5px;
 }
-.my-details button{
-    font-size: 0.85rem;
-    padding: 8px 15px;
-    border-radius: 5px;
+.my-details button {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+    border-radius: 8px;
     margin: 20px 0px;
     font-stretch: ultra-expanded;
     color: white;
@@ -143,7 +143,7 @@ nav-right button{
 }
 .left-table a {
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
 }
 .left-table button {
     margin: 4px;
@@ -151,6 +151,7 @@ nav-right button{
     width: 120px;
     padding: 5px;
     border-radius: 20px;
+    font-size: 1rem;
 }
 .left-table button i {
     font-size: 0.8rem;
@@ -345,6 +346,7 @@ nav-right button{
     padding-right: 15px;
     padding-top: 24px;
     color: white;
+    font-size: 0.8rem;
 }
 
 
