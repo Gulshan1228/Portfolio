@@ -11,29 +11,80 @@ nav{
 
 /* About me section CSS */
 #about{
-    margin-top: 120px;
+    margin-top: 75px;
 }
 
 /* css for the skills section */
 #skills{
-    margin-top: 200px;
+    margin-top: 50px;
 }
 .skill-content{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
 }
 
 
 /* Education section CSS */
 #education{
-    margin-top: 180px;
+    margin-top: 0px;
 }
 .line {
     width: 190px;
     margin-left: 408px;
     margin-top: -155px;
 }
+
+
+/* project */
+.project-content {
+    padding: 50px 0px 25px 0px;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.project:nth-child(2){
+    flex-direction: column;
+}
+.project img{
+    border-radius: 10px;
+    opacity: 0.975;
+    height: auto;
+    width: 100%;
+    transition: all 0.25s ease-in-out;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px 25px 50px;
+}
+.project1 , .project2, .project3 {
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 0.2mm;
+    width: 100%;
+}
+.project1 p, .project2 p, .project3 p {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 5px 0px;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
