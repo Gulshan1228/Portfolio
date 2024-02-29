@@ -21,6 +21,12 @@ nav{
 }
 .tabs li a{
     color: white;
+    padding: 0;
+}
+.light-mode button {
+    background-color: rgba(0, 0, 0);
+    padding: 2px 25px;
+    border-radius: 10px;
 }
 .tabs li{
     padding-top: 35px;
@@ -96,7 +102,7 @@ nav-right button{
     font-weight: 100;
 }
 .about-main{
-    padding: 80px 20px;
+    padding: 50px 20px;
     flex-direction: column;
 }
 .about-main .left img{
@@ -120,8 +126,6 @@ nav-right button{
 .cv-btn{
     margin: 25px auto;
     text-align: center;
-    border-radius: 10px;
-    color: white;
 }
 
 .about-main .right{
@@ -182,7 +186,7 @@ nav-right button{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 25px;
+    padding: 32px;
 }
 #skills{
     margin-top: 1px;
@@ -192,7 +196,7 @@ nav-right button{
     font-size: 1rem;
 }
 .bars-shadow{
-    width: 70%;
+    width: 68%;
 }
 
 .bars-shadow{
@@ -231,9 +235,15 @@ nav-right button{
 
 
 /* Education section CSS */
+.connection {
+    padding: 15px 0px 5px 0px;
+}
 .education-content{
     margin-top: 60px;
     padding-bottom: 250px;
+}
+.line{
+    display: block;
 }
 .education-content p{
     font-size: 1.1rem;
@@ -260,13 +270,12 @@ nav-right button{
     padding-right: 0px;
 }
 .education-content .line {
-    width: 230px;
-    margin: -170px 0px 0px -48px;
-
+    width: 210px;
+    margin: -152px 0px 0px -53px;
 }
 
 
-/* Projects  */
+
 
 /* Contact with me - CSS */
 .contact-content{
@@ -275,6 +284,7 @@ nav-right button{
     height: 300px;
     width: 90%;
     margin: 60px auto;
+    margin-top: 80px;
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -346,14 +356,50 @@ nav-right button{
 }
 .contact-icons i{
     padding-right: 15px;
-    padding-top: 28px;
+    padding-top: 24px;
     color: white;
     font-size: 0.8rem;
 }
-.contact-icon i:nth-child(2), i:nth-child(3){{
-    font-size: 0.9rem;
+
+/* projects */
+.project-content {
+    padding: 20px 0px 25px 0px;
+}
+
+.project1, .project2, .project3 {
+    text-align: center;
+    padding: 25px 15px;
+    letter-spacing: 0.2mm;
+    width: 100%;
+}
+.project1 h3, .project2 h3, .project3 h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.project button a {
+    text-decoration: none;
+    letter-spacing: 0.1mm;
+    color: white;
+    font-size: 16px;
+}
+.project button{
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: #603dc1f0;
+    border: none;
+    margin-top: 15px;
+    padding: 5px;
+    width: 150px;
+}
+.project {
+    padding: 50px 25px 25px 25px;
 }
 
 
+}
 
+@media(max-width:380px){
+    .project {
+        padding: 50px 18px 25px 18px;
+    }
 }
