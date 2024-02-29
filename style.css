@@ -589,3 +589,115 @@ Animation timing function
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.animation{
+    width: 200px;
+    height: 28px;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8),rgba(255, 255, 255,0.9),rgba(255, 255, 255));
+    position: absolute;
+    top: 0;
+    animation: job;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 800ms;
+}
+
+
+@keyframes job {
+        0%{
+            left:0px;
+            width: 200px;
+        }
+        30%{
+            left: 50px;
+            width: 160px;
+        }
+        35%{
+            left: 55px;
+            width: 130px;
+        }
+        50%{
+            left: 90px;
+            width: 100px;
+        }
+        80%{
+            left: 190px;
+            width: 10x;
+        }
+        90%{
+            left: 200px;
+            width: 0px;
+        }
+        100%{
+            left:0px;
+            width: 200px;
+        }
+}
+@keyframes job2 {
+    0%{
+        left:0px;
+        width: 150px;
+    }
+    30%{
+        left: 30px;
+        width: 130px;
+    }
+    35%{
+        left: 36px;
+        width: 120px;
+    }
+    50%{
+        left: 60px;
+        width: 100px;
+    }
+    90%{
+        left: 150px;
+        width: 0px;
+    }
+    100%{
+        left: 0px;
+        width: 150px;
+    }
+}
+
+
+
+@media (max-width:645px) {
+    .animation {
+        width: 10px;
+        animation-name: job2;
+        animation: job2;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 800ms;
+    }
+
+}
+
+@media (max-width:645px) {
+    .animation {
+        width: 10px;
+        animation-name: job2;
+        animation: job2;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 800ms;
+    }
+
+}
+
+.tabs{
+    z-index: 1;
+}
