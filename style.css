@@ -35,9 +35,33 @@ nav-right ul li a:hover{
 nav-right button{
     background: transparent;
     border: none;
-    padding-left: 20px;
-    font-size: 1.1rem;
+    padding-left: 0px;
+    color: whitesmoke;
 }
+.light-mode button{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0px 10px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    animation-name: animate;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0);
+}
+.light-mode button:hover{
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    box-shadow: 0px 2px 2px 0px grey;
+    transform: translateY(-2px);
+    animation: none;
+}
+.light-mode :active{
+    box-shadow: 0px 0px 0px 0px grey;
+    transform: translateY(0px);
+}
+
 .menu{
     display: none;
 }
@@ -118,7 +142,12 @@ nav-right button{
     border-radius: 43% 57% 45% 55% / 25% 30% 70% 75% ;
     background-image: url(img/Resumepic-removebg-preview.png);
     background: linear-gradient(150deg,#2742ac,#603dc1ac );
+    transition: all 1s ease-out;
 }
+.my-photo:hover{
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
 
 /* About me section CSS */
 
@@ -144,6 +173,10 @@ nav-right button{
     border-radius: 10px;
     box-shadow: 1px 1px 10px 5px lightgray;
     background: linear-gradient(250deg,#2546cb,#603dc1ec);
+}
+
+.about-main .left img:hover{
+    box-shadow: 0px 0px 10px 2px grey;
 }
 .about-main .right{
     width: 500px;
@@ -224,7 +257,7 @@ nav-right button{
 .skill-content ul li{
     list-style-type: none;
     padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
 }
 .skill-content h3{
     letter-spacing: 1px;
@@ -293,7 +326,7 @@ nav-right button{
     font-size: 1.2rem;
 }
 #education{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .connection{
     padding: 15px;
@@ -332,6 +365,7 @@ nav-right button{
     height: 400px;
     width: 75%;
     margin: 60px auto;
+    margin-top: 70px;
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -339,7 +373,6 @@ nav-right button{
 }
 .contact-content img{
     height: 400px;
-    /* margin-top: px; */
 }
 .right-contact{
     width: 55%;
@@ -428,6 +461,8 @@ footer{
     width: 100%;
     background-color: #613dc1;
     box-shadow: 0px -10px 50px 10px rgba(128, 128, 128, 0.75);
+    box-shadow: inset 0px 10px 12px -5px whitesmoke;
+    
     display: flex;
     justify-content: space-around;
     padding: 2px;
@@ -439,3 +474,135 @@ footer{
     color: whitesmoke;
     font-size: 0.9rem;
 }
+
+
+/* Animations */
+/* 
+
+create animation{ from - to // 0% - 100%}
+then apply on the element in css
+bu adding:-
+Animation name
+Animation duration
+Animation iteration count
+Animation delay 
+animation direction
+Animation timing function
+
+*/
+
+
+@keyframes animate {
+    0%{
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0);
+    }
+    100%{
+        box-shadow: 0px 0px 5px 5px black;
+    }
+}
+
+
+
+
+
+
+/* Projects CSS here */
+.project-content{
+    padding: 50px 0px;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.project img{
+    border-radius: 12px;
+    opacity: 0.95;
+    height: 300px;
+    transition: all 0.25s ease-in-out;
+}
+.project img:hover{
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: 5px 5px 2px 1px rgba(128, 128, 128, 0.5) ;
+}
+.project:nth-child(2){
+    flex-direction: row-reverse;
+}
+.gym{
+    text-align: end;
+}
+
+
+.project1{
+    text-align: start;
+    padding: 50px;
+    letter-spacing: 0.2mm;
+    width: 440px;
+}
+.project2{
+    text-align: end;
+    padding: 50px;
+    letter-spacing: 0.2mm;
+    width: 440px;
+}
+.project3{
+    text-align: start;
+    padding: 50px;
+    letter-spacing: 0.2mm;
+    width: 440px;
+}
+
+.project1 h3, .project2 h3, .project3 h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.project1 p, .project2 p, .project3 p {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 25px 0px;
+    line-height: 1.5;
+}
+
+
+.project button a {
+    text-decoration: none;
+    letter-spacing: 0.3mm;
+    color: antiquewhite;
+    font-size: 16px;
+}
+.project button{
+    padding: 8px 25px ;
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: #603dc1ff;
+    border: none;
+    margin-top: 25px;
+    transition: all 0.3s ease-out;
+}
+.project button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 1px 0px grey; 
+}
+.project button:active{
+    transform: translateY(0px);
+    box-shadow: 0px 0px 0px 0px grey; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
