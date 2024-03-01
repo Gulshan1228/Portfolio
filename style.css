@@ -692,7 +692,7 @@ Animation timing function
         flex-direction: column;
         height: 100vh;
         width: 100%;
-        animation-name: welcome-small;
+        animation-name: welcome-tab;
         animation-duration: 2.75s;
         animation-timing-function: ease;
         animation-iteration-count: 1;
@@ -718,7 +718,7 @@ Animation timing function
         flex-direction: column;
         height: 100vh;
         width: 100%;
-        animation-name: welcome-tab;
+        animation-name: welcome-small;
         animation-duration: 2.75s;
         animation-timing-function: ease;
         animation-iteration-count: 1;
@@ -727,6 +727,9 @@ Animation timing function
         top: -150%;
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
+    }
+    .welcome p {
+        margin-top: -50px;
     }
 }
 
