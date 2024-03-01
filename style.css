@@ -806,7 +806,7 @@ Animation timing function
         top: -100%;
         background: linear-gradient(180deg,#603dc1,#603dc1d8);
         color: white;
-        font-size: 2rem;
+        font-size: 1.2rem;
         box-shadow: 0px -25px 50px 5px #603dc1;
     }
     90%{
