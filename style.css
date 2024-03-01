@@ -684,7 +684,7 @@ Animation timing function
     }
     .welcome{
         box-sizing: border-box;
-        padding: 2px;
+        padding: 15px;
         z-index: 1000;
         display: flex;
         justify-content: center;
@@ -705,8 +705,32 @@ Animation timing function
     .welcome p {
         margin-top: -50px;
     }
-
 }
+
+@media (max-width:431px) {
+    .welcome{
+        box-sizing: border-box;
+        padding: 5px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        animation-name: welcome-tab;
+        animation-duration: 2.75s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        transition: all 1s;
+        position: absolute;
+        top: -150%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+
 
 .tabs{
     z-index: 1;
@@ -780,7 +804,7 @@ Animation timing function
 }
 
 
-@keyframes welcome-small{
+@keyframes welcome-tab{
     0%{
         background-color: #603dc1;
         top: 0%;
@@ -803,6 +827,48 @@ Animation timing function
         background: linear-gradient(180deg,#603dc1,#603dc1d8);
         color: white;
         font-size: 2.25rem;
+        box-shadow: 0px -25px 50px 5px #603dc1;
+    }
+    90%{
+        background-color: #603dc1;
+        top: -100%;
+        background: linear-gradient(190deg,#603dc1,#603dc100);
+        color: white;
+        font-size: 3rem;
+    }
+    100%{
+        background-color: transparent;
+        top: -150%;
+        color: transparent;
+        font-size: 4rem;
+    }
+}
+
+
+
+@keyframes welcome-small{
+    0%{
+        background-color: #603dc1;
+        top: 0%;
+        background: linear-gradient(180deg,#603dc1,#603dc1);
+        color: #603dc1;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        box-shadow: 0px -5px 10px 2px #603dc1;
+    }
+    50%{
+        background-color: #603dc1;
+        top: 0%;
+        background: linear-gradient(180deg,#603dc1,#603dc1);
+        color: white;
+        box-shadow: 0px 0px 0px 2px #603dc1;
+    }
+    80%{
+        background-color: #603dc1;
+        top: -100%;
+        background: linear-gradient(180deg,#603dc1,#603dc1d8);
+        color: white;
+        font-size: 2rem;
         box-shadow: 0px -25px 50px 5px #603dc1;
     }
     90%{
