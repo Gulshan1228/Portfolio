@@ -684,7 +684,7 @@ Animation timing function
     }
     .welcome{
         box-sizing: border-box;
-        padding: 15px;
+        padding: 2px;
         z-index: 1000;
         display: flex;
         justify-content: center;
