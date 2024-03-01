@@ -702,6 +702,9 @@ Animation timing function
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
     }
+    .welcome p {
+        margin-top: -50px;
+    }
 
 }
 
@@ -816,3 +819,6 @@ Animation timing function
         font-size: 4rem;
     }
 }
+
+
+
