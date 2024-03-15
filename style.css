@@ -522,7 +522,8 @@ Animation timing function
 .project img:hover{
     border-radius: 5px;
     opacity: 1;
-    box-shadow: 5px 5px 2px 1px rgba(128, 128, 128, 0.5) ;
+    /* box-shadow: 5px 5px 2px 1px rgba(128, 128, 128, 0.5) ; */
+    transform: scale(1.075);
 }
 .project:nth-child(2){
     flex-direction: row-reverse;
