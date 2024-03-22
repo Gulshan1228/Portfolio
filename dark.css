@@ -97,7 +97,6 @@ footer {
 .project img:hover{
     border-radius: 5px;
     opacity: 1;
-    box-shadow: 5px 5px 2px 1px gray ;
 }
 
 .project1 p, .project2 p, .project3 p {
